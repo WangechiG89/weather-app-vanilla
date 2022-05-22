@@ -6,7 +6,7 @@ hours=`0 ${hours}`;
 
 let minutes=date.getMinutes();
 if (minutes<10);
-minutes=` ${minutes}`;
+minutes=` 0${minutes}`;
 
 let days=["Sunday", "Monday", "Tuesday", "Wednesaday", "Thursday", "Friday", "Saturday"];
 let day=days [date.getDay()];
