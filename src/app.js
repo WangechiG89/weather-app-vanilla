@@ -16,7 +16,7 @@ let day=days [date.getDay()];
 
 
 function displayTemperature(response){
-    console.log(response.data.main.temp)
+    
     let temperatureElement=document.querySelector("#temperature");
     let cityElement=document.querySelector("#city");
     let conditionElement=document.querySelector("#condition");
